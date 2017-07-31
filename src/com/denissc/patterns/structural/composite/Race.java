@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Race {
-    private List<BolidCar> cars = new ArrayList<BolidCar>();
+    private List<BolideCar> cars = new ArrayList<BolideCar>();
 
-    void addBolidCar(BolidCar bolidCar) {
-        cars.add(bolidCar);
+    void addBolidCar(BolideCar bolideCar) {
+        cars.add(bolideCar);
     }
 
     void start(){
         System.out.println("Race started");
-        for (BolidCar car :
+        for (BolideCar car :
                 cars) {
             car.go();
         }

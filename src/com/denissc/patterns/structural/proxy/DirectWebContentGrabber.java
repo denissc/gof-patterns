@@ -1,8 +1,5 @@
 package com.denissc.patterns.structural.proxy;
 
-/**
- * Created by denissc on 27.07.17.
- */
 public class DirectWebContentGrabber implements WebContentGrabber {
     private String url;
     public DirectWebContentGrabber(String url) {

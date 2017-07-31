@@ -1,6 +1,5 @@
 package com.denissc.patterns.behavioral.chain;
 
-
 public abstract class ErrorLogger {
     public int priority;
     public ErrorLogger nextErrorLogger;

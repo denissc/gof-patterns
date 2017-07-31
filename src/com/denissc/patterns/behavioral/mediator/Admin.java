@@ -1,8 +1,5 @@
 package com.denissc.patterns.behavioral.mediator;
 
-/**
- * Created by denissc on 28.07.17.
- */
 public class Admin implements User {
     String name;
     Chat chat;

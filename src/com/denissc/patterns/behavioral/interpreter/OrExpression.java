@@ -1,8 +1,5 @@
 package com.denissc.patterns.behavioral.interpreter;
 
-/**
- * Created by denissc on 28.07.17.
- */
 public class OrExpression implements Expression {
     Expression expression1;
     Expression expression2;

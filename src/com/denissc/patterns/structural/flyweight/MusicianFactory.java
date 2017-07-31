@@ -10,7 +10,7 @@ public class MusicianFactory {
         Musician musician = musicians.get(musicalInstrument);
         if (musician == null) {
             musician = createMusicianByMusicalInstrument(musicalInstrument);
-            musicians.put(musicalInstrument,musician);
+            musicians.put(musicalInstrument, musician);
         }
 
         return musician;

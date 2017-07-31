@@ -2,9 +2,6 @@ package com.denissc.patterns.creational.abstractfactory;
 
 import com.denissc.patterns.creational.abstractfactory.metalband.MetalBandFactory;
 
-/**
- * Created by denissc on 25.07.17.
- */
 public class MetalBandSong {
     public static void main(String[] args) {
         BandFactory bandFactory = new MetalBandFactory();

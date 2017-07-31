@@ -1,8 +1,5 @@
 package com.denissc.patterns.creational.singleton;
 
-/**
- * Created by denissc on 25.07.17.
- */
 public class DatabaseConnection {
     private  static DatabaseConnection databaseConnection;
 

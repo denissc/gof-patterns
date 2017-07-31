@@ -2,9 +2,6 @@ package com.denissc.patterns.behavioral.memento;
 
 import java.util.Date;
 
-/**
- * Created by denissc on 31.07.17.
- */
 public class GameSave {
     private final String location;
     private final Date date;

@@ -2,9 +2,6 @@ package com.denissc.patterns.creational.abstractfactory.rockband;
 
 import com.denissc.patterns.creational.abstractfactory.*;
 
-/**
- * Created by denissc on 25.07.17.
- */
 public class RockBandFactory implements BandFactory {
     @Override
     public Drummer getDrummer() {

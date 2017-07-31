@@ -1,10 +1,7 @@
 package com.denissc.patterns.structural.adapter;
 
-/**
- * Created by denissc on 26.07.17. Повозка
- */
 public class Carriage {
-    void putTheHourses(){
+    void putTheHorses(){
         System.out.println("Putting the carriage before the horse");
     }
 

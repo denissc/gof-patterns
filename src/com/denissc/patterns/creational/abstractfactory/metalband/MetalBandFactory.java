@@ -2,9 +2,6 @@ package com.denissc.patterns.creational.abstractfactory.metalband;
 
 import com.denissc.patterns.creational.abstractfactory.*;
 
-/**
- * Created by denissc on 25.07.17.
- */
 public class MetalBandFactory implements BandFactory {
     @Override
     public Drummer getDrummer() {

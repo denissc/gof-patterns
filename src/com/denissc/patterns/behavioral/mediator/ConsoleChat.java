@@ -3,9 +3,6 @@ package com.denissc.patterns.behavioral.mediator;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by denissc on 28.07.17.
- */
 public class ConsoleChat implements Chat {
     User admin;
     List<User> users = new ArrayList<>();

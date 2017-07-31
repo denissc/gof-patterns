@@ -1,12 +1,9 @@
 package com.denissc.patterns.structural.adapter;
 
-/**
- * Created by denissc on 26.07.17.
- */
-public class AdapterCarrigeToVehicle extends Carriage implements Vehicle {
+public class AdapterCarriageToVehicle extends Carriage implements Vehicle {
     @Override
     public void start() {
-        putTheHourses();
+        putTheHorses();
     }
 
     @Override

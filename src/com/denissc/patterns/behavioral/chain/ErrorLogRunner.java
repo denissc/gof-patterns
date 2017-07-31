@@ -11,7 +11,7 @@ public class ErrorLogRunner {
 
         consoleErrorLogger.logErrorManager("This argument is not best fits function call.", ErrorLevel.NOTICE);
         consoleErrorLogger.logErrorManager("This function don`t seems to work properly.", ErrorLevel.WARNING);
-        consoleErrorLogger.logErrorManager("NullPointerExeption in function_name line 32.", ErrorLevel.FATAL);
+        consoleErrorLogger.logErrorManager("NullPointerException in function_name line 32.", ErrorLevel.FATAL);
 
     }
 }

@@ -1,8 +1,5 @@
 package com.denissc.patterns.behavioral.mediator;
 
-/**
- * Created by denissc on 28.07.17.
- */
 public class ChatRunner {
     public static void main(String[] args) {
         ConsoleChat chat = new ConsoleChat();

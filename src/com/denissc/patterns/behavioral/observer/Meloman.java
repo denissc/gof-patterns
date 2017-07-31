@@ -2,9 +2,6 @@ package com.denissc.patterns.behavioral.observer;
 
 import java.util.List;
 
-/**
- * Created by denissc on 31.07.17.
- */
 public class Meloman implements Observer {
     private String name;
 
